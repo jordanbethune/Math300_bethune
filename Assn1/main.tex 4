@@ -1,0 +1,29 @@
+\documentclass{article}
+\title{Chicken Adobo}
+\author{Jordan Bethune}
+\usepackage{fullpage}
+\begin{document}
+\maketitle
+\section{Description: Chicken adobo is a delicious pacific island dish that includes the slow cooking of chicken mixed with vinegar, soy sauce, garlic, and onions. The chicken adobo is then served over a bed of rice. }
+\section{Ingredients:}
+\begin{itemize}
+\item 2 tablespoons of olive oil 
+\item 2 pounds of chicken, cut up
+\item 1 large white onion, sliced 
+\item 2 tablespoons minced garlic
+\item 1/3 cup of white vinegar 
+\item 1 tablespoon of garlic powder 
+\item 2/3 cup of low sodium soy sauce 
+\item 1 tablespoon of black pepper 
+\end{itemize}
+\section{Steps:}
+\begin{enumerate}
+\item Heat olive oil in a large, deep skillet over medium-high heat. 
+\item Add the chicken and cook it, then remove from skillet. 
+\item In the same skillet stir in the garlic and onion, cook until soften and brown. Roughly 6 minutes. 
+\item Pour in vinegar and soy sauce, and season with garlic powder and black pepper. 
+\item Add the cooked chicken and increase the heat to high and bring to a boil. 
+\item Reduce heat to medium-low, cover, and simmer until the chicken is tender and cooked all the way through. Roughly 35-40 minutes. 
+\item Serve over a bed of rice. Enjoy!
+\end{enumerate}
+\end{document}

@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\textbf{The Lorentz Condition:}
+\begin{eqnarray}
+\frac{1}{C} \frac{\partial\phi}{\partial t} +
+div(A)=0.
+\end{eqnarray}
+\noindent As we shall see, by using what we are known as gauge transformations, we can always select potentials for the electromagnetic field that satisfy this condition. The nice part about having the potentials satisfy the Lorentz condition is that the PDEs (9.51)-(9.52) decouple into a pair of wave equations:
+\begin{displaymath}
+\frac{\partial^2 \phi}{\partial t^2} -c^2\nabla ^2 \phi =4\pi c^2 p,
+\end{displaymath}
+\begin{displaymath}
+\frac{\partial ^2 A}{\partial t^2} -c^2 \nabla ^2 A = 4 \pi c J. 
+\end{displaymath}
+\textbf{Theorem 9.2} (Lorentz Potential Equations) On a simply connected spatial region, the vector fields E, B are a solution of Maxwell's equations if and only if 
+\begin{eqnarray}
+E=- \nabla \phi - \frac{1}{c} \frac{\partial A}{\partial t} , 
+\end{eqnarray}
+\begin{eqnarray}
+B=curl(A), 
+\end{eqnarray}
+for some scalar field $\phi$ and vector field A that satisfy the Lorentz potential equations
+\begin{eqnarray}
+\frac{1}{c} \frac{\partial \phi}{\partial t} + div(A)+0, 
+\end{eqnarray}
+\begin{eqnarray}
+\frac{\partial ^2 \phi}{\partial t^2} -c^2 \nabla ^2 \phi = 4\pi c^2 p
+\end{eqnarray}
+\begin{eqnarray}
+\frac{\partial ^2 A}{\partial t^2} -c^2 \nabla ^2 A =4\pi c J. 
+\end{eqnarray}
+\textbf{Proof} Suppose first that E, B is a solution of Maxwell's equations. We repeat some of the above arguments because we have to change the notion slightly. You will see why shortly. Thus, since div(B) = 0, there exists a vector field $A_0$ such that curl$(A_0)$ = B. Substituting this expression for B in Faraday's law give curl ($\partial A_0/ \partial t + E$) = 0. Thus there exists a scalar field $\phi _0$ such that $-\nabla \phi _0 = \partial A_0/ \partial t +E$. Rearranging this gives E = $-\nabla \phi _0 /\partial t$. Thus, E and B are given by potentials $\phi _0$ and $A_0$ in the form of equations (9.45)-(9.55). 
+\end{document}
