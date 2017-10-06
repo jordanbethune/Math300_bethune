@@ -1,0 +1,36 @@
+\documentclass{article}
+\title{Assignment 4}
+\author{Jordan Bethune}
+\begin{document}
+\maketitle
+\section{Problem 1: Binary Integers}
+\begin{tabular}{|c|c|c|}
+	\hline
+	Problem & Binary & Hexadecimal\\
+    \hline
+    a. 16 = $2^4$ & 00010000 & 10\\
+    \hline
+    b. 170 = $2^7 + 2^5 + 2^3
+	+ 2^1$ & 10101010 & AA\\ 
+    \hline
+    c. 197 = $2^7 + 2^6 + 2^2 + 2^0$ & 11000101 & C5\\
+    \hline
+    d. 225 = $2^7 + 2^6 + 2^5 + 2^0$ & 11100001 & E1\\
+\end{tabular}
+\section{Problem 2: Fixed Point}
+\begin{enumerate}
+\item The whole portion of the numbers must be able to store a maximum value of 511 which would require 9 bits. 
+\item 9 bits would be required in order to represent any number x/128 where x ranges from 0 to 127. 
+\item The bits that are required would be 9 in order to meet the constraints. 
+\end{enumerate}
+\section{Problem 3: Fixed Point}
+\begin{enumerate}
+\item Multiplication effects the number of bits by doubling. The decimal will end up moving from the tenths to the hundredths so the amount of space required doubles. 
+\end{enumerate}
+\section{Problem 4: Networking Concepts}
+\begin{enumerate}
+\item a. The first protocol would be the public and private key components that allow both Bob and Alice to send messages. The other protocol involved would include a protocol like HTTPS which is a communication protocol that allows the privacy of exchanged data. 
+\item b. Alice and Bob have to keep their private keys to themselves. Alice will use Bob's public key and in order to convert it to a readable one is to combine it with Bob's private key. The same goes for Alice. If the private keys were to get out then everybody would be able to access the messages that were only intended for Alice and Bob. 
+\end{enumerate}
+\end{document}
+
