@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{setspace}
+\usepackage{amsmath}
+
+\newcommand{\forceindent}{\leavevmode{\parindent=1em\indent}}
+
+\title{Lorenz Attractor}
+\author{Jordan Bethune}
+\date{November 6th, 2017}
+
+\begin{document}
+\maketitle
+\doublespace
+\forceindent
+The Lorenz attractor is a system of differential equations while being known for parameter values and initial conditions. It can also be known for being quite chaotic at times. These system of equations were developed by meteorologist, Edward Lorenz \footnote{Wikipedia: Lorenz attractor}, in 1963 in order to study the atmospheric convection. Overall, the equations describe a two-dimensional fluid layer warmed from below and cooled from above. This fluid is known to circulate veritcally and horozontally. Through Lorenz's equations he concluded that not all weather patterns can be predicted and are non-linear. The three equations Lorenz created can be shown as: 
+\begin{align*}
+\frac{dx}{dt} &= a(y-x) \\
+\frac{dy}{dt} &= x(b-z)-y \\
+\frac{dz}{dt} &= xy-cz \\
+\end{align*}
+These three equations are helpful in explaining the rate of change with respect to time. The constants that can be seen frequently within these equations is a=10, b=28, and c=8/3. And when these become plotted they can be resemblances of a figure eight or butterfly. 
+\noindent The graphics shown in the python document resemble this figure eight or butterfly plot. The function of x is shown in two different ways by using different constants. 
+
+\end{document}
+
